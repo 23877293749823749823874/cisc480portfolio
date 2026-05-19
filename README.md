@@ -7,13 +7,16 @@ npm install
 npm run dev
 ```
 
-Deploy:
+## Deploy (GitHub Pages)
 
-1. Push to `main` (or run the **Deploy site to GitHub Pages** workflow manually).
-2. In repo **Settings → Pages**, set **Source** to **Deploy from a branch**.
-3. Choose branch **`gh-pages`**, folder **`/ (root)`**.
-4. Live URL: `https://<your-github-username>.github.io/cisc480portfolio/`
+1. Push to `main` (or run **Deploy site to GitHub Pages** in Actions).
+2. In the repo go to **Settings → Pages**.
+3. Set **Source** to **Deploy from a branch** (not GitHub Actions).
+4. Branch: **`main`**
+5. Folder: **`/docs`**
+6. Save and wait 1–2 minutes.
+7. Open: `https://23877293749823749823874.github.io/cisc480portfolio/`
 
-If the site is blank, make sure Pages is **not** still serving the repo root `index.html` from `main`. It must use the built files on `gh-pages`.
+If the page is blank, hard refresh (`Cmd+Shift+R`) and confirm Pages is using **`main` + `/docs`**, not `gh-pages` or GitHub Actions.
 
-Edit copy in `src/data/site.ts` and the reflection string in `src/data/reflection.ts`. Replace `public/resume.png` to update the resume modal. Swap images under `public/screenshots/`.
+Edit copy in `src/data/site.ts` and the reflection in `src/data/reflection.ts`. Replace `public/resume.png` to update the resume modal.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="t">
+  <title id="t">Screenshot placeholder C</title>
+  <rect width="1200" height="750" fill="#1e3a5f"/>
+  <rect x="72" y="72" width="1056" height="606" rx="18" fill="#243b53" stroke="#3d5a80" stroke-width="2"/>
+  <rect x="110" y="110" width="220" height="530" rx="12" fill="#1b2838"/>
+  <rect x="360" y="110" width="730" height="48" rx="10" fill="#2c405a"/>
+  <rect x="360" y="180" width="480" height="20" rx="6" fill="#3d5a80"/>
+  <rect x="360" y="220" width="650" height="360" rx="14" fill="#0d1b2a"/>
+  <text x="600" y="450" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#e2e8f0">Dark UI placeholder</text>
+  <text x="600" y="488" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#94a3b8">PNG placeholder</text>
+</svg>
