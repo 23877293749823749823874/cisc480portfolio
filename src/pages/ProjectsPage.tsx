@@ -6,11 +6,6 @@ export function ProjectsPage() {
     <>
       <header className="page-intro">
         <h1>Projects and experiences</h1>
-        <p className="lede">
-          A mix of CS projects, class work, and outside-the-major writing: the Sustainability
-          Initiative capstone, an Interstellar film analysis, feminist biblical criticism,
-          SpecterSight, and Doggr.
-        </p>
       </header>
 
       <div className="card-grid">
