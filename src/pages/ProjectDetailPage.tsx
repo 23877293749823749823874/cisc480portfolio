@@ -33,7 +33,7 @@ export function ProjectDetailPage() {
     <>
       <div className="back-row">
         <Link to="/projects" className="back-link">
-          ← Projects and experiences
+          Back to projects
         </Link>
       </div>
 
@@ -87,16 +87,16 @@ export function ProjectDetailPage() {
 
         {project.failureStory ? (
           <section className="prose-section" aria-labelledby="failure-story-heading">
-            <h2 id="failure-story-heading">When it went sideways</h2>
+            <h2 id="failure-story-heading">What went wrong</h2>
             <h3 id="failure-intent-heading">1. What we were trying to do</h3>
             {project.failureStory.intent.map((paragraph, i) => (
               <p key={`intent-${i}`}>{paragraph}</p>
             ))}
-            <h3 id="failure-gap-heading">2. What went worse than we wanted</h3>
+            <h3 id="failure-gap-heading">2. What went wrong</h3>
             {project.failureStory.gap.map((paragraph, i) => (
               <p key={`gap-${i}`}>{paragraph}</p>
             ))}
-            <h3 id="failure-learning-heading">3. What we learned and what we do differently</h3>
+            <h3 id="failure-learning-heading">3. What we learned</h3>
             {project.failureStory.learning.map((paragraph, i) => (
               <p key={`learning-${i}`}>{paragraph}</p>
             ))}

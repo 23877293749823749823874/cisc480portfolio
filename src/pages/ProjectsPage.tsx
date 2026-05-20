@@ -5,7 +5,7 @@ export function ProjectsPage() {
   return (
     <>
       <header className="page-intro">
-        <h1>Projects and experiences</h1>
+        <h1>Projects</h1>
       </header>
 
       <div className="card-grid">

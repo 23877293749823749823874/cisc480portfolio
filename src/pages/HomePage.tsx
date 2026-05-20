@@ -84,7 +84,7 @@ export function HomePage() {
       </div>
 
       <p style={{ marginTop: "1.75rem" }}>
-        <Link to="/projects">See all projects and experiences</Link>
+        <Link to="/projects">See all projects</Link>
       </p>
     </>
   );
